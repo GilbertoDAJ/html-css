@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+
+
+        body {
+            background-color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+         
+           font-size: 20px;
+           h1{
+            color: aqua;
+            background-color: aliceblue;
+           }
+           h2{
+            color: rgb(203, 196, 255);
+           }
+
+           p{
+            text-align: justify;
+           }
+        }
