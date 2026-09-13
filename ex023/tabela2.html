@@ -11,6 +11,7 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 caption{
     font-size: 1.5em;
@@ -23,10 +24,16 @@ td,th{
     border: 1px solid black ;
     padding: 10px;
 }
-thead{
+thead, tfoot{
     background-color: gray;
     color: white;
 }
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+     background-color: gray;
+}
+
 td.num{
     text-align: right;
 }
@@ -53,6 +60,39 @@ tbody > tr:nth-child(2n) {
 
 <tbody>
 <tr>
+    <td>São Paulo</td>
+    <td class="num">45 919 049 </td>
+</tr>
+<tr>
+    <td>Minas Gerais</td>
+    <td class="num">21 168 791</td>
+</tr>
+<tr> 
+    <td>Rio de janeiro</td>
+    <td class="num">17 264 943</td>
+</tr>
+<tr>
+    <td>Bahia</td>
+    <td class="num">14 873 064</td>
+</tr>
+
+
+    <td>São Paulo</td>
+    <td class="num">45 919 049 </td>
+</tr>
+<tr>
+    <td>Minas Gerais</td>
+    <td class="num">21 168 791</td>
+</tr>
+<tr> 
+    <td>Rio de janeiro</td>
+    <td class="num">17 264 943</td>
+</tr>
+<tr>
+    <td>Bahia</td>
+    <td class="num">14 873 064</td>
+</tr>
+
     <td>São Paulo</td>
     <td class="num">45 919 049 </td>
 </tr>
@@ -110,5 +150,12 @@ tbody > tr:nth-child(2n) {
 </tfoot>
 
     </table>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!</p>
+    <br><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi expedita ut officiis reprehenderit a dignissimos, odio obcaecati reiciendis magni. Esse dolorum aperiam illum animi quos harum ullam aut officia!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempore quod doloremque? Soluta velit deserunt rem eum perferendis quibusdam quam, minus alias voluptatum iste aspernatur labore, delectus inventore nisi sequi!</p>
+    
+
 </body>
 </html>
